@@ -2,6 +2,18 @@ title: Precision Audioworks
 description: "This is the description isn't it amazing!"
 baseurl: ""
 url: "https://precisionaudioworks.com.au"
+language: en
+region: AU
 
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - LICENSE
+  - node_modules/
+  - purgecss.config.js
+  - Rakefile
   - README.md
+  - vendor/
