@@ -1,5 +1,7 @@
 # Precision Audioworks
 
+We design, supply, and install quality audio systems for residential and commercial clients.
+
 ## Installation
 
 ### Clone repository
