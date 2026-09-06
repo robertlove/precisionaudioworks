@@ -8,9 +8,9 @@ layout: default
   <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
     <div class="d-flex justify-content-center">
       <div class="text-center">
-        <h1 class="mx-auto my-0 text-uppercase">{{- page.title -}}</h1>
-        <p class="h2 text-white-50 mx-auto mt-2 mb-5">{{- page.description -}}</p>
-        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <h1 class="visually-hidden">{{- page.title -}}</h1>
+        <p class="display-4 text-white-50 mx-auto mt-2 mb-5">{{- page.description -}}</p>
+        <a class="btn btn-primary" href="#services">Learn more</a>
       </div>
     </div>
   </div>
@@ -73,10 +73,10 @@ layout: default
 <section class="about-section" id="brands">
   <h2 class="visually-hidden">Brands</h2>
   <div class="container px-4 px-lg-5">
-    <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 gx-4 gx-lg-5 justify-content-center">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 gx-4 gx-lg-5 justify-content-center">
       {% for brand in site.data.brands %}
         <div class="col p-5 d-flex align-items-center">
-          <img class="img-fluid" src="{{- brand.image | relative_url -}}" alt="{{- brand.title | escape -}}">
+          <img class="img-fluid opacity-50" src="{{- brand.image | relative_url -}}" alt="{{- brand.title | escape -}}">
         </div>
       {% endfor %}
     </div>
