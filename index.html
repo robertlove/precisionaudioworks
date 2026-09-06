@@ -70,6 +70,19 @@ layout: default
   </div>
 </section>
 
+<section class="about-section" id="brands">
+  <h2 class="visually-hidden">Brands</h2>
+  <div class="container px-4 px-lg-5">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 gx-4 gx-lg-5 justify-content-center">
+      {% for brand in site.data.brands %}
+        <div class="col p-5 d-flex align-items-center">
+          <img class="img-fluid" src="{{- brand.image | relative_url -}}" alt="{{- brand.title | escape -}}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="contact-section bg-black" id="contact">
   <h2 class="visually-hidden">Contact</h2>
   <div class="container px-4 px-lg-5">
@@ -77,13 +90,13 @@ layout: default
       <div class="col-md-4 mb-3 mb-md-0">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill text-primary mb-2" viewBox="0 0 16 16">
-              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill text-primary mb-2" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
             </svg>
-            <h3 class="h4 text-uppercase m-0">Email</h3>
+            <h3 class="h4 text-uppercase m-0">Servicing</h3>
             <hr class="my-4 mx-auto">
             <div class="small text-black-50">
-              <a href="mailto:matt@precisionaudioworks.com.au">matt@precisionaudioworks.com.au</a>
+              <span>All areas <br> Australia-wide</span>
             </div>
           </div>
         </div>
@@ -97,6 +110,8 @@ layout: default
             <h3 class="h4 text-uppercase m-0">Email</h3>
             <hr class="my-4 mx-auto">
             <div class="small text-black-50">
+              <a href="mailto:matt@precisionaudioworks.com.au">matt@precisionaudioworks.com.au</a>
+              <br>
               <a href="mailto:luke@precisionaudioworks.com.au">luke@precisionaudioworks.com.au</a>
             </div>
           </div>
