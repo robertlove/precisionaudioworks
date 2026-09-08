@@ -1,13 +1,14 @@
 title: Precision Audioworks
 description: "We design, supply, and install quality audio systems for residential and commercial clients."
-baseurl: "/precisionaudioworks"
-url: "https://robertlove.github.io"
+baseurl: ""
+url: "https://precisionaudioworks.com.au"
 language: en
 region: AU
 
 exclude:
   - .jekyll-cache/
   - .sass-cache/
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - gemfiles/
