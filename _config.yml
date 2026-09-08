@@ -6,4 +6,5 @@ language: en
 region: AU
 
 exclude:
+  - Rakefile
   - README.md
