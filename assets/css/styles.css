@@ -11035,6 +11035,10 @@ body {
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
+  #mainNav svg path {
+    fill: #fff;
+    opacity: 0.5;
+  }
   #mainNav.navbar-shrink svg path {
     fill: #000;
     opacity: 1;
