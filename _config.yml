@@ -6,15 +6,4 @@ language: en
 region: AU
 
 exclude:
-  - .jekyll-cache/
-  - .sass-cache/
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - gemfiles/
-  - LICENSE
-  - node_modules/
-  - purgecss.config.js
-  - Rakefile
   - README.md
-  - vendor/
