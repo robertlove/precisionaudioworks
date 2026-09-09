@@ -15,6 +15,7 @@ cd precisionaudioworks
 
 ```shell
 bundle install
+npm i -g purgecss
 ```
 
 ## Usage
@@ -23,6 +24,12 @@ bundle install
 
 ```shell
 bundle exec jekyll serve
+```
+
+### Remove unused CSS
+
+```shell
+purgecss --config ./purgecss.config.js
 ```
 
 ## Contributing

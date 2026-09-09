@@ -6,5 +6,6 @@ language: en
 region: AU
 
 exclude:
+  - purgecss.config.js
   - Rakefile
   - README.md
