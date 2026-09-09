@@ -16,6 +16,7 @@ cd precisionaudioworks
 ```shell
 bundle install
 npm i -g purgecss
+npm i -g lightningcss-cli
 ```
 
 ## Usage
@@ -30,6 +31,12 @@ bundle exec jekyll serve
 
 ```shell
 purgecss --config ./purgecss.config.js
+```
+
+### Minify CSS
+
+```shell
+lightningcss --minify ./_site/assets/css/styles.css -o ./_site/assets/css/styles.css
 ```
 
 ## Contributing
